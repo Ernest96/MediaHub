@@ -2352,7 +2352,8 @@ html.no-csstransitions .home-content__main {
 
 .s-works .intro-wrap {
 	padding: 15rem 0 14.2rem;
-	background: #111
+	background: #111;
+	text-align: center;
 }
 
 .works-content {
@@ -2554,8 +2555,9 @@ html.no-csstransitions .home-content__main {
 		padding: 8rem 0 10.2rem
 	}
 	.video-player{
-		width:90% !important;
-		margin-left:5% !important;
+		width:95% !important;
+		margin-right:5% !important;
+
 	}
 	.demo-gallery > ul > li {
 		width: 95% !important;
@@ -3554,9 +3556,17 @@ footer .row {
 }
 
 .video-player{
-	width:60%;
-	margin-left:20%;
+	width:40%;
+	margin-right:5%;
+	margin-left:3.5%;
+	display: inline-block;
 	padding-top:3rem;
+}
+
+.videos{
+	width:100% !important;
+	display: inline-block;
+	max-width: 1200px;
 }
 
 #my-video{

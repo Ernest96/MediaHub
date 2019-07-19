@@ -11,7 +11,7 @@
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css?id=1">
     <link href="css/lightgallery.css" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <link href="https://vjs.zencdn.net/7.6.0/video-js.css" rel="stylesheet">
@@ -35,6 +35,7 @@
                     <li class="current"><a class="smoothscroll" href="#home" title="home">Acasa</a></li>
                     <li><a class="smoothscroll" href="#about" title="about">Despre</a></li>
                     <li><a class="smoothscroll" href="#services" title="services">Servicii</a></li>
+                    <li><a class="smoothscroll" href="#works" title="services">Lucrari</a></li>
                     <li><a class="smoothscroll" href="#clients" title="clients">Clienti</a></li>
                     <li><a class="smoothscroll" href="#contact" title="contact">Contacte</a></li>
                 </ul>
@@ -108,7 +109,7 @@
             <div class="col-full">
                 <p>
                     O companie media ce se ocupă de
-                    filmări comerciale, sesiuni foto, reportajuri de ceremonii, clipuri video personalizate.
+                    filmări comerciale, fotosesiuni, reportajuri de ceremonii, clipuri video personalizate.
                     Pentru noi orice moment memorabil din viața voastră contează. Din acest motiv suntem buni în
                     domeniul nostru.
                     Iar în curînd vă vom putea bucura cu un nou proiect "Insta-Rise" la care vom oferi clienților
@@ -252,21 +253,58 @@
                     </li>
                 </ul>
             </div>
-            <div class="video-player" data-aos="fade-up" align=center>
-                <video id='my-video' class='video-js vjs-16-9 vjs-big-play-centered' controls preload='auto' 
-                     data-setup='{}' poster='images/preview.png'>
-                    <source src='video/video.mp4' type='video/mp4'>
-                    <source src='' type='video/webm'>
-                    <p class='vjs-no-js'>
-                        To view this video please enable JavaScript, and consider upgrading to a web browser that
-                        <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
-                    </p>
-                </video>
+            <br>
+            <div class="videos row" data-aos="fade-up" align=center>
+                <div class="video-player">
+                    <video class='video-js vjs-16-9 vjs-big-play-centered' controls preload='auto' data-setup='{}'
+                        poster='images/preview1.png'>
+                        <source src='video/video1.mp4' type='video/mp4'>
+                        <source src='' type='video/webm'>
+                        <p class='vjs-no-js'>
+                            To view this video please enable JavaScript, and consider upgrading to a web browser that
+                            <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+                        </p>
+                    </video>
+                </div>
+                <div class="video-player">
+                    <video class='video-js vjs-16-9 vjs-big-play-centered' controls preload='auto' data-setup='{}'
+                        poster='images/preview2.png'>
+                        <source src='video/video2.mp4' type='video/mp4'>
+                        <source src='' type='video/webm'>
+                        <p class='vjs-no-js'>
+                            To view this video please enable JavaScript, and consider upgrading to a web browser that
+                            <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+                        </p>
+                    </video>
+                </div>
+            </div>
+            <div class="videos row" data-aos="fade-up" align=center>
+                <div class="video-player">
+                    <video class='video-js vjs-16-9 vjs-big-play-centered' controls preload='auto' data-setup='{}'
+                        poster='images/preview4.png'>
+                        <source src='video/video4.mp4' type='video/mp4'>
+                        <source src='' type='video/webm'>
+                        <p class='vjs-no-js'>
+                            To view this video please enable JavaScript, and consider upgrading to a web browser that
+                            <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+                        </p>
+                    </video>
+                </div>
+                <div class="video-player">
+                    <video class='video-js vjs-16-9 vjs-big-play-centered' controls preload='auto' data-setup='{}'
+                        poster='images/preview3.png'>
+                        <source src='video/video3.mp4' type='video/mp4'>
+                        <source src='' type='video/webm'>
+                        <p class='vjs-no-js'>
+                            To view this video please enable JavaScript, and consider upgrading to a web browser that
+                            <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+                        </p>
+                    </video>
+                </div>
             </div>
         </div>
 
     </section>
-
     <section id="clients" class="s-clients">
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
@@ -320,8 +358,8 @@
                                 class="full-width">
                         </div>
                         <div class="form-field">
-                            <textarea name="contactMessage" id="contactMessage" placeholder="Mesaj *" rows="10"
-                                cols="50" required="" aria-required="true" class="full-width"></textarea>
+                            <textarea name="contactMessage" id="contactMessage" placeholder="Mesaj *" rows="5" cols="50"
+                                required="" aria-required="true" class="full-width"></textarea>
                         </div>
                         <div class="form-field">
                             <button class="full-width btn--primary">Submit</button>
@@ -374,6 +412,18 @@
                     </ul>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="s-clients" style="padding-bottom:6rem">
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h1 class="display-2">
+                    <i class="fa fa-instagram"></i>
+                    Insta-Rise
+                </h1>
+            </div>
+            <br>
+            <img src="images/soon.png" style="max-width:300px;">
         </div>
     </section>
 
